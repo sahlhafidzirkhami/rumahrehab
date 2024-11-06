@@ -1,5 +1,5 @@
 import React from "react";
-import Mitra from "../../../Components/Pages/Mitra";
+import Mitra from "@/Components/Pages/Mitra";
 const page = () => {
   return <Mitra />;
 };

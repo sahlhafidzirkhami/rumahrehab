@@ -70,33 +70,25 @@ function getItem(
 }
 
 const items: MenuItem[] = [
+  getItem(<Link href="/pasien">Pasien</Link>, "pasien", <IdcardOutlined />),
   getItem(
-    <Link href="/dashboard/pasien">Pasien</Link>,
-    "pasien",
-    <IdcardOutlined />
-  ),
-  getItem(
-    <Link href="/dashboard/tagihan">Tagihan</Link>,
+    <Link href="/tagihan">Tagihan</Link>,
     "tagihan",
     <SolutionOutlined />
   ),
   getItem(
-    <Link href="/dashboard/pembayaran">Pembayaran</Link>,
+    <Link href="/pembayaran">Pembayaran</Link>,
     "pembayaran",
     <ReconciliationOutlined />
   ),
+  getItem(<Link href="/mitra">Mitra</Link>, "mitra", <TeamOutlined />),
   getItem(
-    <Link href="/dashboard/mitra">Mitra</Link>,
-    "mitra",
-    <TeamOutlined />
-  ),
-  getItem(
-    <Link href="/dashboard/pengaturan_user">Pengaturan User</Link>,
+    <Link href="/pengaturan_user">Pengaturan User</Link>,
     "pengaturan_user",
     <UserOutlined />
   ),
   getItem(
-    <Link href="/dashboard/pengaturan_panti">Pengaturan Panti</Link>,
+    <Link href="/pengaturan_panti">Pengaturan Panti</Link>,
     "pengaturan_panti",
     <SettingOutlined />
   ),

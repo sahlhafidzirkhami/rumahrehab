@@ -1,5 +1,5 @@
 import React from "react";
-import Pembayaran from "../../../Components/Pages/Pembayaran";
+import Pembayaran from "@/Components/Pages/Pembayaran";
 const page = () => {
   return <Pembayaran />;
 };
