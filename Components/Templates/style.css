@@ -1,0 +1,20 @@
+.demo-logo-vertical {
+  display: flex;
+  justify-content: center; /* Menjaga logo tetap berada di tengah secara horizontal */
+  align-items: center;
+  margin-top: 16px; /* Memberikan sedikit margin untuk menyesuaikan posisi vertikal */
+  padding-bottom: 10px;
+}
+.demo-logo-vertical img {
+  max-width: 64px;
+
+  max-height: 64px;
+}
+.ant-menu-item-selected {
+  background-color: #1890ff !important; /* Ganti warna sesuai preferensi */
+}
+.ant-dropdown-link:focus,
+.ant-dropdown-link:active {
+  background: none !important;
+  outline: none !important;
+}
